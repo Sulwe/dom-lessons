@@ -28,7 +28,7 @@
         const para2 = linkPara.cloneNode(linkPara);
         sect.appendChild(para2);
         sect.removeChild(para2);
-        linkPara.remove(); //remove the node based only on reference to itself
+        linkPara.remove(); //remove the node based only on reference to itself. In old browsers, use linkPara.parentNode.removeChild(linkPara);//
         
 
       
