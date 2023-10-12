@@ -20,3 +20,18 @@ blueHeading.style.color = 'blue';
 
 container.appendChild(blueHeading);
 
+const pink = document.createElement('div');
+pink.classList.add('pink');
+pink.style.backgroundColor = 'pink'
+
+const pinkHeading = document.createElement('h1');
+pinkHeading.classList.add('heading');
+pinkHeading.textContent = "I'm in a div"
+pink.appendChild(pinkHeading);
+
+const meToo = document.createElement('p');
+meToo.classList.add('textPink');
+meToo.textContent = "ME TOO!";
+pink.appendChild(meToo);
+
+container.appendChild(pink);
